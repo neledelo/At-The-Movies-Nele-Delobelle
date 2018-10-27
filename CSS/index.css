@@ -1,0 +1,258 @@
+/* NAVIGATION */
+
+.navigation{
+    margin-top: 10px;
+}
+.bg-nav{
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.title h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.sticky-top{
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+/*  TEXT  */
+
+article h1{
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding: 25px;
+    margin:0;
+    padding-bottom: 0;
+}
+
+article h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 15px;
+    padding-top: 5px;
+    padding-left: 27px;
+}
+
+article p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding: 15px;
+    padding-top: 0;
+    padding-left: 27px;
+    padding-right: 40px;
+}
+
+article img{
+    padding:0;
+    height: 220px;
+    width: 100%;
+}
+
+.text{
+    background-color: #F9F9F9;
+    padding: 20px;
+    padding-top:0;
+    margin-bottom: 30px;
+}
+
+/* HEADER FILM 1 */
+
+.header{
+    background-color: transparent;
+}
+
+.headertext {
+    background-color: #F9F9F9;
+    padding: 20px;
+    padding-top:0;
+    margin-bottom: 30px;
+}
+
+.buyheader a{
+     background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 10px; 
+    border-radius: 100px;
+    position: absolute;
+    left: 320px;
+    top: 580px;
+}
+
+
+/* FILMS */
+
+.film img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buy a{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 10px; 
+    border-radius: 100px;
+    position: absolute;
+    left: 320px;
+    top: 670px;
+}
+
+.buytwee a{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 10px; 
+    border-radius: 100px;
+    position: absolute;
+    left: 320px;
+    top: 725px;
+}
+
+.buydrie a {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 10px; 
+    border-radius: 100px;
+    position: absolute;
+    left: 320px;
+    top: 765px;
+}
+
+.buyvier a{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 10px; 
+    border-radius: 100px;
+    position: absolute;
+    left: 320px;
+    top: 740px;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 8px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.footer img{
+    width: auto; 
+    height: 30px;
+    margin-top: 20px;
+    
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+
+.buy a{
+    position: absolute;
+    left: 440px;
+    top: 700px;
+    }
+    
+.buyheader a{
+    position: absolute;
+    left: 470px;
+    top: 310px;
+    }
+
+.buytwee a{
+    position: absolute;
+    left: 440px;
+    top: 700px;
+    }
+    
+.buydrie a {
+    position: absolute;
+    left: 440px;
+    top: 745px;
+    }
+    
+.buyvier a{
+    position: absolute;
+    left: 440px;
+    top: 745px;
+    }
+
+.title h2{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.header img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 500px;
+}
+
+.headertext {
+    z-index: 1;
+    background-color:white ;
+    width: 50%; 
+    padding: 20px;
+    position: absolute;
+    top: 360px;
+    left: 280px;
+}
+
+.film img{
+    height: 380px;
+    width: 100%;
+
+}
+.headermammamia img{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 270px;
+}
+
+footer{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
